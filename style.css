@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+    background-color: #e84118;
+}
+.logo-area{
+    width: 200px;
+}
+.logo-area img{
+    width: 100%;
+    margin: 0px 20px;
+}
+
+   
+
+
+.main-area .content-area{
+    margin: 20px 40px;
+  
+}
+.first-area{
+    width: 30%;
+    background-color: #192a56;
+    color: white;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    border-radius: 20px;
+    float: left;
+   margin-left: 2%;
+    
+    
+   
+   
+    
+    
+
+}
+.first-area h1{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+.first-area input[type=Submit]{
+font-size: 20px;
+color: #4cd137;
+border-radius: 10px;
+padding: 10px;
+display: block;
+margin: auto;
+cursor: pointer;
+}
+.first-area:hover{
+    background-color: royalblue;
+    font-size: 40px;
+
+}
+
+.second-area{
+    width: 30%;
+    background-color: #192a56;
+    color: white;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    border-radius: 20px;
+    float: left;
+    margin: 40px 20px;
+   
+   
+    
+
+
+}
+.second-area h1{
+    font-size: 40px;
+    color: #f53b57;
+    text-align: center;
+}
+.second-area input[type=Submit]{
+font-size: 20px;
+color: #05c46b;
+border-radius: 10px;
+padding: 10px;
+display: block;
+margin: auto;
+cursor: pointer;
+}
+.second-area:hover +.third-area{
+    background-color: darkmagenta;
+    font-size: 30px;
+
+}
+.third-area{
+    width: 30%;
+    background-color: #192a56;
+    color: white;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    border-radius: 20px;
+    float: left;
+    margin-left: 20px
+
+
+}
+.third-area h1{
+    font-size: 40px;
+    color: #ffa801;
+    text-align: center;
+}
+.third-area input[type=Submit]{
+font-size: 20px;
+color: #ff5e57;
+border-radius: 10px;
+padding: 10px;
+display: block;
+margin: auto;
+cursor: pointer;
+}
+.main-area:after{
+    content: '';
+    display: block;
+    clear: both;
+    
+}
+
+.head{
+ 
+text-align: center;
+    font-size: 20px;
+  
+    background-color: darkviolet;
+   
+}
+.bd{
+    width: 25%;
+    background: #e84118;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    position: relative;
+    left: 100px
+    
+   
+
+}
+#md{
+    text-align: center;
+    font-size: 30px;
+    background: coral;
+}
+.main{
+    background: #ff3f34;
+    height: 500px;
+    width: 80%;
+    position: relative;
+}
+.ami{
+    width: 40%;
+    background: darkcyan;
+    height: 250px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.tumi{
+    width: 40%;
+    background: rgb(139, 0, 0);
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#fs{
+    text-align: center;
+    font-size: 35px;
+     background-color: aqua;
+     color: white;
+}
+.main-flow:after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.flow-area{
+    width: 30%;
+    height: 100px;
+  
+    overflow: hidden;
+    float: left;
+    box-sizing: border-box;
+    background-color: #ffdd59;
+    
+
+}
+.low-area{
+    width: 30%;
+    height: 50px;
+    border: 2px solid blue;
+    float: left;
+    overflow: scroll;
+    box-sizing: border-box;
+    margin: 20px;
+    background-color: #0be881;
+    padding: 10px;
+    
+
+}
+.fow-area{
+    width: 30%;
+    height: 60px;
+    border: 2px solid red;
+    float: left;
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 20px;
+    background-color: goldenrod;
+    padding: 5px;
+}
+
+#td{
+    font-size: 40px;
+    font-family: tahoma;
+    color: darkmagenta;
+    text-align: center;
+    background-color: darkseagreen;
+}
+.transform-area{
+ width: 200px;
+ height: 150px;
+ background-color: deeppink;
+ padding: 30px;
+ margin: 50px 50px;
+ float: left;
+ transform: rotate(30deg);
+}
+.ansform-area{
+    width: 200px;
+    height: 150px;
+    
+    padding: 30px;
+    margin: 50px 50px;
+    float: left;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: skewX(20deg);
+   }
+   .ransform-area{
+    width: 200px;
+    height: 150px;
+    background-color: deeppink;
+    padding: 30px;
+    margin: 10px 30px;
+    float: left;
+    transform: scale(0.5,0.5);
+   }
+   .main-trans:after{
+       content: '';
+       display: block;
+       clear: both;
+   }
+   #visu{
+       text-align: center;
+       font-size: 35px;
+       background-color: fuchsia;
+       color: white;
+   }
+   .visibi{
+       width: 20%;
+       height: 150px;
+       background-color:violet;
+       margin: 0px 20px;
+       padding: 10px;
+
+   }
+   .visit{
+    width: 20%;
+    height: 150px;
+    background-color:violet;
+    margin: 0px 20px;
+    padding: 10px;
+    visibility: hidden;
+}
+.lol{
+    width: 20%;
+    height: 150px;
+    background-color:violet;
+    margin: 0px 20px;
+    padding: 10px;
+    visibility: visible;
+
+}
+#opacit{
+    text-align: center;
+    font-size: 35px;
+    background-color: fuchsia;
+    color: white; 
+}
+.pic img{
+    opacity: 0.5;
+    
+}
+.pic img:hover{
+    
+    opacity: 1.0;
+}
+#hove{
+    text-align: center;
+    font-size: 35px;
+    background-color: fuchsia;
+    color: white;  
+}
+.first{
+    width: 30%;
+    height: 300px;
+    background: limegreen;
+    margin: 30px;
+    float: left;
+}
+.second{
+    width: 30%;
+    height: 300px;
+    background:#ef5777;
+    margin: 30px;
+    float: left;
+}
+.first:hover +.second{
+    background-color: maroon;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
